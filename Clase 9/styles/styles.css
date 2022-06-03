@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body header nav.fondo_negro{
+    background-color: #222222;
+    color: white;
+}
+
+body header nav.fondo_naranja{
+    background-color:#F0A83E;
+    color: white;
+}
+
+body main h2.centrar{
+    text-align: center;
+}
+
+body main section.fondo_bowl{
+    height:600px;
+    background-image: url(/img/bowl-and-pet-daities-on-green-background.png);
+    background-size: cover;
+    text-align: center;
+}
+
+body main section nav ul li.linea{
+    display: inline;
+}
+
+body main section nav ul li p.color_marron{
+    color: #3C2313;
+}
+
+body main section nav ul li p.color_naranja{
+    color: #F0A83E;
+}
+
+body main section.fondo_marron{
+    background-color: #3C2313;
+}
+
+body main section div h2{
+    color: #FFFFFF;
+}
+
+body main section div p{
+    color:#8A8787
+}
+
+body footer{
+    background-color: #F0A83E;
+    color: white;
+    text-align: center;
+}
