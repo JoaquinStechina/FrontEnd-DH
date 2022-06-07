@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 body header div.verde{
     background-color: #1CD1B0;
     color: black;
@@ -23,10 +24,13 @@ body header div.azul{
     top: 0px;
 }
 
+body main{
+    margin-left: 15%;
+}
+
 body main section{
     padding-top: 154px;
     padding-bottom: 151px;
-    padding-left: 32px;
 }
 
 body main section article{
