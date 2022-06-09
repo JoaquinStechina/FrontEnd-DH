@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+body header div{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body header nav{
+    width: 21%;
+    color: white;
+}
+
+body header nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+body main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+body main div{
+    width: 490px;
+    height: 350px;
+}
+
+body main div.moto{
+    background-image: url(../img/delivery.jpg);
+    display: flex;
+}
+
+body main div.moto div{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 24px;
+    color: red;
+    font-weight: 700;
+}
+
+body main div.moto div h2.color{
+    color: white;
+}
+
+body main div.der{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 26px;
+}
+
+body main div.der h2{
+    color:red;
+    padding-bottom: 58px;
+}
+
+body main div.der h3{
+    padding-bottom: 20px;
+}
+
+body main div.der nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body main div.der nav ul{
+    list-style-type: decimal;
+}
+
+body main div.der nav li{
+    font-size: 13px;
+    padding: 7px;
+}
+
+body footer{
+    padding-top: 19px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 42px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+body footer nav{
+    width: 21%;
+    color: white;
+}
+
+body footer nav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+body footer nav ul li{
+    padding-bottom: 12px;
+}
+
+body footer div{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
