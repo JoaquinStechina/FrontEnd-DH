@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body header nav.fondo_negro{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 90px;
+    padding-right: 52px;
+    display: flex;
+    background-color: #222222;
+    color: white;
+    justify-content: space-between;
+}
+
+body header nav.fondo_negro ul{
+    display: flex;
+}
+
+body header nav.fondo_negro ul li{
+    padding-left: 12px;
+}
+
+body header nav.fondo_naranja{
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    background-color:#F0A83E;
+    color: white;
+    justify-content: space-between;
+}
+
+body header nav.fondo_naranja i{
+    display: none;
+}
+
+body header nav.fondo_naranja ul{
+    display: flex;
+}
+
+body header nav.fondo_naranja ul li{
+    padding-left: 20px;
+}
+
+body main section.fondo_bowl{
+    display: flex;
+    height:600px;
+    padding-right: 12px;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+body main section.fondo_bowl div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body main section.fondo_bowl div p{
+    margin-top: 12px;
+    color: #3C2313;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body main section.fondo_bowl div p.boton{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    padding: 15px;
+}
+
+body main section.fondo_bowl div p.boton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body main section.fondo_bowl h2{
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #3C2313;
+}
+
+body main section.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 103px;
+}
+
+body main section.mid div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body main section.mid div h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body main section.mid div nav{
+    width: 70%;
+    margin-bottom: 49px;
+}
+
+body main section.mid div nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+body main section.mid div nav ul{
+    display: flex;
+}
+
+body main section.mid div nav ul li{
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+}
+
+body main section.mid nav.productos{
+    width: 100%;
+}
+
+body main section.mid nav.productos ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+body main section.mid nav.productos ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body main section.mid nav.productos ul li p.color_marron{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3C2313;
+}
+
+body main section.mid nav.productos ul li p.color_naranja{
+    font-size: 15px;
+    font-weight: 500;
+    color: #F0A83E;
+}
+
+body main section.contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body main section.contactanos h2{
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+body main section.contactanos div{
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+body main section.contactanos div p{
+    font-size: 9px;
+    padding-left: 15px;
+    color: #FFFFFF;
+}
+
+body main section.contactanos div.botones{
+    margin-top: 41px;
+    width: 226px;
+    background-color:unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body main section.contactanos div.botones div.boton_resetear{
+    background-color: #8A8787;
+    width: 110px;
+    height: 34px;
+}
+
+body main section.contactanos div.botones div.boton_enviar{
+    display: flex;
+    justify-content: center;
+    background-color: #F0A83E;
+    width: 110px;
+    height: 34px;
+}
+
+body main section.contactanos div.botones div p{
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+body main section.suscribirse{
+    background-color: #F0A83E;
+    display: flex;
+    padding-left: 23px;
+    padding-right: 47px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+body main section.suscribirse div.foto_texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main section.suscribirse div.foto_texto h3{
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+body main section.suscribirse div.ingreso_boton{
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main section.suscribirse div.ingreso_boton div.ingreso{
+    display: flex;
+    width: 271px;
+    height: 40px;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 15px;
+    color: #A0A0A0;
+}
+
+body main section.suscribirse div.ingreso_boton div.ingreso p{
+    padding-left: 8px;
+}
+
+body main section.suscribirse div.ingreso_boton div.boton{
+    display: flex;
+    width: 70px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #3C2313;
+    font-size: 9px;
+    color: #FFFFFF;
+}
+
+body main section.fondo_marron{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main section.fondo_marron div div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+body main section.fondo_marron div div div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+body main section.fondo_marron div div div h2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body main section.fondo_marron div div div p{
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+body footer{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 414px){
+    body header nav.fondo_negro{
+        display: none;
+    }
+
+    body header nav.fondo_naranja ul{
+        display: none;
+    }
+
+    body header nav.fondo_naranja ul li i{
+        display: none;
+    }
+
+    body header nav.fondo_naranja i{
+        display: flex;
+    }
+
+    body main section.fondo_bowl div{
+        align-items: flex-end;
+    }
+
+    body main section.mid div{
+        text-align: center;
+    }
+
+    body main section.mid nav ul.a_columna_MEDIA{
+        flex-direction: column;
+    }
+
+    body main section.contactanos h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    body main section.contactanos div.botones{
+        width: 98%;
+        margin-bottom: 45px;
+    }
+
+    body main section.contactanos div.botones div.boton_resetear{
+        border-radius: 30px;
+        height: 45px;
+        width: 199px;
+    }
+
+    body main section.contactanos div.botones div.boton_enviar{
+        border-radius: 30px;
+        height: 45px;
+        width: 199px;
+    }
+
+    body main section.suscribirse{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 14px;
+    }
+
+    body main section.suscribirse div.foto_texto{
+        width: 100%;
+        padding-left: 5px;
+        padding-bottom: 14px;
+    }
+
+    body main section.suscribirse div.foto_texto h3{
+        width: 100%;
+    }
+
+    body main section.suscribirse div.ingreso_boton{
+        width: 414px;
+        padding-left: 15px;
+        padding-right: 29px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    body main section.suscribirse div.ingreso_boton div.ingreso{
+        font-size: 10px;
+        margin-right: 9px;
+    }
+
+    body main section.suscribirse div.ingreso_boton div.boton{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    body main section.fondo_marron{
+        flex-direction: column;
+    }
+
+    body main section.fondo_marron div{
+        margin-top: 19px;
+        order: 1;
+    }
+}

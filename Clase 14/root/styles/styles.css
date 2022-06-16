@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body header div{
+    padding-left: 67px;
+}
+
+body header .naranja{
+    background-color: #D1891C;
+    font-size: 48px;
+}
+
+body header .azul{
+    font-size: 72px;
+    background-color: #00669F;
+    color: #ffffff;
+}
+
+body main{
+    margin-top: 101px;
+    margin-bottom: 190px;
+}
+
+body main article{
+    position: relative;
+    width: 39.15vw;
+}
+
+body main article div.top{
+    position: relative;
+}
+
+body main article div.top img.corazon{
+    position: absolute;
+    left: 2.5%;
+    top: 4.5%;
+}
+
+body main article div.absoluta{
+    position: absolute;
+    left: 50%;
+}
