@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body header div.verde{
+    background-color: #1CD1B0;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+body header div.azul{
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    font-size: 15px;
+    padding: 28px;
+    top: 0px;
+}
+
+body header nav.azul_oscuro{
+    background-color: #001D2D;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+body header nav.azul_oscuro ul{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+}
+
+body header nav.azul_oscuro ul li{
+    padding-right: 2vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Inter', sans-serif;;
+}
+
+article.formulario{
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 50vw;
+}
+
+article.formulario h3{
+    font-size: 5vh;
+    font-weight: 800;
+}
+
+.boton{
+    background-color: #1CD1B0;
+    border-radius: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.contenedor_formularios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2vh;
+    width: 85%;
+}
+
+div.columna1 form{
+    display: flex;
+    flex-direction: column;
+}
+
+div.columna2 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mod1{
+    border-radius: 1vw;
+    height: 7.5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.mod2{
+    margin-top: 1vh;
+    padding-bottom: 4.5vh;
+    border-radius: 1vw;
+}
+
+.mod3{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+.mod4{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.mod4 label{
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.mod4 label input{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+}
+
+body footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}

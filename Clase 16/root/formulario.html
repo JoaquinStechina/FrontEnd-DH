@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="./styles/styles_formulario.css">
+</head>
+<body>
+    <header>
+        <div class="verde">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="azul">
+            <img src="./img/OBJECTS.png" alt="">
+            <h1>Nombre Tienda</h1>
+        </div>
+        <nav class="azul_oscuro">
+            <ul>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="formulario">
+            <h3>Añadí tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <div class="contenedor_formularios">
+                <div class="columna1">
+                    <form action="" method="POST">
+                        <label for="Nombre">* Nombre</label>
+                        <input class="mod1" type="text" name="Nombre" id="Nombre">
+                        <label for="Fecha">Fecha</label>
+                        <input class="mod1" type="date" name="Fecha" id="Fecha">
+                        <textarea class="mod2" name="Descripcion" id="Descripcion" cols="30" rows="10">Descripcion</textarea>
+                    </form>
+                </div>
+                <div class="columna2">
+                    <form action="" method="POST">
+                        <label for="Especie">* Especie</label>
+                        <select class="mod1" name="Especie" id="Especie">
+                            <optgroup label="Especie">
+                                <option value="humano">humano</option>
+                                <option value="alienigena">alienigena</option>
+                            </optgroup>
+                        </select>
+                        <label for="Foto">Agregar Foto</label>
+                        <input class="mod3" type="file" name="Foto" id="Foto">
+                        <div class="mod4">
+                            <label for="">Poderes</label>
+                            <label for="">
+                                <input type="checkbox" name="Poderes" id="">
+                                Volar
+                            </label>
+                            <label for="">
+                                <input type="checkbox" name="Poderes" id="">
+                                SuperInteligencia
+                            </label>
+                            <label for="">
+                                <input type="checkbox" name="Poderes" id="">
+                                Vista de rayo láser
+                            </label>
+                            <label for="">
+                                <input type="checkbox" name="Poderes" id="">
+                                Billetera gorda
+                            </label>
+                        </div>
+                        <hr>
+                        <div class="mod4">
+                            <label for="">Tipo de personaje</label>
+                            <label for="Heroe / Heroina">
+                                <input type="radio" name="Tipo de personaje" id="Heroe / Heroina">
+                                Heroe / Heroina
+                            </label>
+                            <label for="Villano / Villana">
+                                <input type="radio" name="Tipo de personaje" id="Villano / Villana">
+                                Villano / Villana
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <button class="boton" type="submit">Añadir</button>
+        </article>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
