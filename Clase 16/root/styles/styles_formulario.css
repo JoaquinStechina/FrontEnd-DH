@@ -114,8 +114,23 @@ div.columna2 form{
 }
 
 .mod3{
+    background-color: grey;
+    border-radius: 10px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    position: relative;
     margin-top: 4vh;
     margin-bottom: 5vh;
+    width: 100%;
+}
+
+.mod3 input{
+    position: absolute;
+    opacity: 0;
 }
 
 .mod4{
