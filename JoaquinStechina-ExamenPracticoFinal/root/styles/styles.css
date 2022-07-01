@@ -312,7 +312,7 @@ footer div.contenedor3 form{
     display: flex;
 }
 
-footer div.contenedor3 form label input{
+footer div.contenedor3 form input{
     color: #A0A0A0;
     border: 0;
     border-radius: 40px;
@@ -513,7 +513,7 @@ footer div.contenedor3 div.Derechos_autor p{
         width: 75%;
     }
     
-    footer div.contenedor3 form label input{
+    footer div.contenedor3 form input{
         padding-left: 6vw;
         padding-right: 13vw;
     }
@@ -566,16 +566,7 @@ button.boton2:hover p{
     cursor: pointer;
 }
 
-label, input{
+input{
     position: relative;
     display: block;
-}
-
-label::after{
-    color: #A0A0A0;
-    content: attr(update);
-    font-size: 13px;
-    left: 5%;
-    top: 32.5%;
-    position: absolute;
 }
