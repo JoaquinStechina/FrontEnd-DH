@@ -6,6 +6,10 @@
   margin-top: 150px;
 }
 
+.margen-bottom {
+  margin-bottom: 50px;
+}
+
 .margenes-2 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -70,6 +74,9 @@
 }
 .flex.column, .column.crl, .column.crl2 {
   flex-direction: column;
+}
+.flex.align-center, .align-center.crl, .align-center.crl2 {
+  align-items: center;
 }
 
 .usar-15 {
