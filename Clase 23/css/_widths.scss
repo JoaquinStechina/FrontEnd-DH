@@ -1,0 +1,35 @@
+@mixin usar-ancho($ancho){
+    width: $ancho;
+}
+
+.usar-15{
+    @include usar-ancho(15%);
+}
+
+.usar-30{
+    @include usar-ancho(30%);
+}
+
+.usar-50{
+    @include usar-ancho(50%);
+}
+
+.usar-55{
+    @include usar-ancho(55%);
+}
+
+.usar-65{
+    @include usar-ancho(65%);
+}
+
+.usar-80{
+    @include usar-ancho(80%);
+}
+
+.usar-90{
+    @include usar-ancho(90%)
+}
+
+.usar-100{
+    @include usar-ancho(100%);
+}

@@ -1,0 +1,23 @@
+@use "_flex.scss";
+@use "_color.scss" as c;
+@mixin circulo{
+    @extend .flex, .centrar;
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 100%;
+    box-shadow: -7px 1px c.$bg-primary;
+    height: 60px;
+    width: 60px
+}
+
+.crl{
+    @include circulo;
+}
+
+.crl2{
+    @include circulo;
+    border-color: #fff;
+    box-shadow: -7px 1px c.$shadow;
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,19 @@
+@use "_color.scss" as c;
+@use "_spaces.scss" as p;
+@mixin boton {
+    @include p.btn-spaces;
+    background-color: c.$bg-primary;
+    border: 1px;
+    border-color: #000;
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.btn{
+    @include boton;
+    &:hover{
+        transform:translateY(10px);
+    }
+}

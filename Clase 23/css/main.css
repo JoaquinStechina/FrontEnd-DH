@@ -1,0 +1,145 @@
+.margen-top-alto {
+  margin-top: 40px;
+}
+
+.margen-top-muy-alto {
+  margin-top: 150px;
+}
+
+.margenes-2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.margen-izquierda {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 3vh 2.5vw;
+  background-color: #03faee;
+  border: 1px;
+  border-color: #000;
+  border-radius: 10px;
+  border-style: dashed;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn:hover {
+  transform: translateY(10px);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.alto-linea-25 {
+  line-height: 25px;
+}
+
+.color-gris {
+  color: #8b8b8b;
+}
+
+.flex, .crl, .crl2 {
+  display: flex;
+}
+.flex.space-around, .space-around.crl, .space-around.crl2 {
+  align-items: center;
+  justify-content: space-around;
+}
+.flex.space-between, .space-between.crl, .space-between.crl2 {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.flex.centrar, .crl, .crl2 {
+  justify-content: center;
+  align-items: center;
+}
+.flex.column, .column.crl, .column.crl2 {
+  flex-direction: column;
+}
+
+.usar-15 {
+  width: 15%;
+}
+
+.usar-30 {
+  width: 30%;
+}
+
+.usar-50 {
+  width: 50%;
+}
+
+.usar-55 {
+  width: 55%;
+}
+
+.usar-65 {
+  width: 65%;
+}
+
+.usar-80 {
+  width: 80%;
+}
+
+.usar-90 {
+  width: 90%;
+}
+
+.usar-100 {
+  width: 100%;
+}
+
+.crl {
+  border: 1px solid;
+  border-color: #000;
+  border-radius: 100%;
+  box-shadow: -7px 1px #03faee;
+  height: 60px;
+  width: 60px;
+}
+
+.crl2 {
+  border: 1px solid;
+  border-color: #000;
+  border-radius: 100%;
+  box-shadow: -7px 1px #03faee;
+  height: 60px;
+  width: 60px;
+  border-color: #fff;
+  box-shadow: -7px 1px #92f7f2;
+  height: 30px;
+  width: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-second {
+  background-color: #f8f8f8;
+}
+
+.sin-puntos {
+  list-style-type: none;
+}
+
+.pointer {
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

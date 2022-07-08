@@ -1,0 +1,25 @@
+@use "_buttons.scss";
+@use "_fonts.scss";
+@use "_flex.scss";
+@use "_spaces.scss";
+@use "_widths.scss";
+@use "_circles.scss";
+@use "_color.scss" as c;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-second{
+    background-color: c.$bg-secondary;
+}
+
+.sin-puntos{
+    list-style-type: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
